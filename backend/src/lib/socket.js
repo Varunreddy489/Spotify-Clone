@@ -20,7 +20,7 @@ export const initializeSocket = (server) => {
       // broadcast to all connected sockets that this user just logged in
       io.emit("user_connected", userId);
 
-      socket.emit("u  sers_online", Array.from(userSockets.keys()));
+      socket.emit("users_online", Array.from(userSockets.keys()));
 
       io.emit("activities", Array.from(userActivities.entries()));
     });
