@@ -69,8 +69,6 @@ A full-featured music streaming app built with modern web technologies! This pro
      ```
 6. Access the application at `http://localhost:3000`.
 
-## Screenshots
-![App Screenshot](https://github.com/Varunreddy489/Spotify-Clone/raw/main/screenshots/screenshot.png)
 
 ## Features in Development
 - Enhanced playlist management
